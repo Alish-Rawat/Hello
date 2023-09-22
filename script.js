@@ -234,7 +234,7 @@ let hack = function coding() {
       }
       t();
     }, 80);
-  }
+  } 
 };
 
 start();
