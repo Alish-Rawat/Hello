@@ -9,7 +9,7 @@ let stage2 = async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(
-        "The provided link is loading....  https://www.instagram.com/aakash_patwal"
+        "The provided link is loading....  https://www.PhonePe.com/SamriddhiRawat/"
       );
     }, 2000);
   });
@@ -24,7 +24,7 @@ let stage3 = async () => {
 let stage4 = async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("aakash_patwal");
+      resolve("SamriddhiRawat");
     }, 4000);
   });
 };
@@ -59,7 +59,7 @@ let start = async () => {
   console.log(a4);
   p.innerHTML = a4;
   let i = document.createElement("img");
-  i.src = "./imgg/pattu.jpg";
+  i.src = "./imgg/chintu.jpg";
   p.appendChild(i);
   i.style.width = "70px";
   i.style.borderRadius = "50%";
@@ -234,7 +234,7 @@ let hack = function coding() {
       }
       t();
     }, 80);
-  } 
+  }
 };
 
 start();
