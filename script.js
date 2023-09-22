@@ -9,7 +9,7 @@ let stage2 = async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(
-        "The provided link is loading....  https://www.instagram.com/_amit_rawat_08/?"
+        "The provided link is loading....  https://www.instagram.com/_rajesh_gusain"
       );
     }, 2000);
   });
@@ -24,7 +24,7 @@ let stage3 = async () => {
 let stage4 = async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("_amit_rawat_08");
+      resolve("_rajesh_gusain_");
     }, 4000);
   });
 };
@@ -59,7 +59,7 @@ let start = async () => {
   console.log(a4);
   p.innerHTML = a4;
   let i = document.createElement("img");
-  i.src = "./imgg/bhola.jpg";
+  i.src = "./imgg/raju.jpg";
   p.appendChild(i);
   i.style.width = "70px";
   i.style.borderRadius = "50%";
