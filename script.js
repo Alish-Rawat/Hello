@@ -9,7 +9,7 @@ let stage2 = async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(
-        "The provided link is loading....  https://www.instagram.com/monoashu/?hl=en"
+        "The provided link is loading....  https://www.instagram.com/_amit_rawat_08/?"
       );
     }, 2000);
   });
@@ -24,7 +24,7 @@ let stage3 = async () => {
 let stage4 = async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("monoashu");
+      resolve("_amit_rawat_08");
     }, 4000);
   });
 };
@@ -59,7 +59,7 @@ let start = async () => {
   console.log(a4);
   p.innerHTML = a4;
   let i = document.createElement("img");
-  i.src = "./imgg/monu.jpg";
+  i.src = "./imgg/bhola.jpg";
   p.appendChild(i);
   i.style.width = "70px";
   i.style.borderRadius = "50%";
