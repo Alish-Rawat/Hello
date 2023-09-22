@@ -59,7 +59,7 @@ let start = async () => {
   console.log(a4);
   p.innerHTML = a4;
   let i = document.createElement("img");
-  i.src = "/img/monu.jpg";
+  i.src = "./imgg/monu.jpg";
   p.appendChild(i);
   i.style.width = "70px";
   i.style.borderRadius = "50%";
