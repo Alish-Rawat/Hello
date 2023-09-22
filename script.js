@@ -9,7 +9,7 @@ let stage2 = async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(
-        "The provided link is loading....  https://www.instagram.com/_rajesh_gusain"
+        "The provided link is loading....  https://www.PhonePe.com/SamriddhiRawat/"
       );
     }, 2000);
   });
@@ -17,14 +17,14 @@ let stage2 = async () => {
 let stage3 = async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("Connecting to instagram....");
+      resolve("Connecting to PhonePe....");
     }, 3000);
   });
 };
 let stage4 = async () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("_rajesh_gusain_");
+      resolve("SamriddhiRawat");
     }, 4000);
   });
 };
@@ -59,7 +59,7 @@ let start = async () => {
   console.log(a4);
   p.innerHTML = a4;
   let i = document.createElement("img");
-  i.src = "./imgg/raju.jpg";
+  i.src = "./imgg/chintu.jpg";
   p.appendChild(i);
   i.style.width = "70px";
   i.style.borderRadius = "50%";
@@ -237,4 +237,4 @@ let hack = function coding() {
   }
 };
 
-// start();
+start();
